@@ -18,6 +18,7 @@ Resources:
       Environment:
         Variables:
           MOVIES_TABLE: !Ref MoviesTable
+          CODEBUILD_VARIABLE: mycodebuildvalue
       Events:
         GetMovies:
           Type: Api
